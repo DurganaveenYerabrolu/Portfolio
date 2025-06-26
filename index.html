@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Durganaveen Yerabrolu Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: white;
+    }
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid orange;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 15px 0 5px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #60a5fa;
+      margin: 10px 0 20px;
+    }
+    p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 18px;
+      
+    }
+    .icons a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+    .icons img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    section {
+      background-color: #1e293b;
+      margin-top: 20px;
+      padding: 40px 20px;
+    }
+    .section-title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+
+      background-color: #334155;
+      padding: 20px;
+      border-radius: 12px;
+      width:220px;
+      text-align: center;
+  
+    }
+    .card img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+    .card p{
+      color:white;
+      font-weight: bolder;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #3b82f6;
+      color: white;
+      padding: 4px 15px;
+      margin: 5px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+   <!-- Profile Header -->
+  <div class="container">
+    <img src="DNPhoto1.jpg" alt="Profile Photo" class="profile-img" />
+    <h1 style="font-size:40px;">Durganaveen Yerabrolu</h1>
+    <h2 style="color: #3b82f6;">Java Full Stack Developer</h2>
+    <p style="font-size: 18px; max-width: 1000px;">
+      Welcome to my portfolio! I'm currently pursuing hands-on training in Full Stack Java Development through Tata STRIVE, 
+      where I’m building robust skills in Java, Spring Boot, MySQL, HTML, CSS, JavaScript, and React. I enjoy turning complex problems into clean, user-friendly solutions. 
+      Whether it's developing responsive front-end interfaces or building powerful backend APIs, I love working across the full stack to bring ideas to life. 
+      Explore my projects, skills, and journey as I grow into a confident and capable developer ready to take on real-world challenges.
+    </p>
+    <div class="icons">
+      <a href="https://github.com/DurganaveenYerabrolu">
+        <img src="https://images.seeklogo.com/logo-png/30/1/github-logo-png_seeklogo-304612.png"/>
+      </a>
+      <a href="https://www.linkedin.com/in/durganaveen-yerabrolu-41b61b264">
+        <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG29.png"/>
+      </a>
+      <a href="mailto:durganaveen.yerabrolu@gmail.com">
+        <img src="https://static.vecteezy.com/system/resources/previews/013/948/544/original/gmail-logo-on-transparent-white-background-free-vector.jpg"/>
+      </a>
+    </div>
+    <a href="https://drive.google.com/file/d/1wg5z5By4d8vTaV3wEXtp0PYeLOyqyqgT/view?usp=drive_link" target="_blank" style="text-decoration: none;">
+      <button style="margin-top: 20px; background-color: orange; border: none; color: white; padding: 10px 25px; font-size: 18px; font-weight: bold; border-radius: 10px; cursor: pointer; border:1px solid white;">
+        Resume
+      </button>
+    </a>
+  </div>
+
+
+  <!-- Skills Section -->
+  <section>
+    <div class="section-title" style="text-align:center;"><h1>Technical Skills</h1></div>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.uCA-24reNfrMPbGjKYKvjQHaHa?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Backend Icon" style="border-radius:50%;" />
+        <h2 style="font-size:25px;">Backend</h2>
+        <p>Java</p>
+        <p>Python</p>
+        <p>Spring Boot</p>
+      </div>
+      <div class="card">
+         <img src="https://thumbs.dreamstime.com/b/front-end-isolated-icon-simple-element-illustration-technology-concept-icons-editable-logo-sign-symbol-design-white-142287485.jpg" style="border-radius:50%;"/>
+        <h2 style="font-size:25px;">Frontend</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>React</p>
+      </div>
+      <div class="card">
+        <img src="https://logodix.com/logo/1164429.png" alt="Database Icon" />
+        <h2 style="font-size:25px;">Database</h2>
+        <p>MySQL</p>
+      </div>
+      <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/previews/009/645/252/large_2x/gear-and-wrench-icon-logo-illustration-service-tool-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg" alt="Deployment Icon" style="border-radius:50%;" />
+        <h2 style="font-size:25px;">Tools</h2>
+        <p>Git</p>
+        <p>GitHub</p>
+        <p>Vs Code</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <div class="section-title" style="text-align:center; "><h1>Projects</h1></div>
+    <div class="card-container">
+      <div class="card" style="width:600px;">
+        <h2 style="font-size:26px;">EventSphere</h2>
+        <p style="font-weight:normal; width:600px; font-size:18px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Smart Event Management System is a web-based platform developed using Spring Boot, React, Java, and MySQL. It enables users to manage events with role-based access for Admins, Customers, and Workers. Customers can book events by selecting themes, cakes, food packages, and entertainment options. Admins handle booking approvals and assign workers based on their registered skills. Workers can manage their profiles and view assigned bookings. The system also features live event progress tracking and automated notifications to enhance coordination and ensure a smooth event experience.</p>
+        <div>
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">React</span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section>
+    <div class="section-title" style="text-align:center;"><h1>Work Experience</h1></div>
+    <div class="card" style="margin:0 auto; width:600px; padding:2px;">
+      <h3 style="font-size:24px; margin-bottom:0;">Full Stack Developer</h3>
+      <p style="color: #60a5fa; margin:0; font-size:22px;">Tata Strive</p>
+      <p>2025 – Present</p>
+      <ul style="text-align: left; font-size:18px;">
+        <li>Trained in enterprise Java applications using Spring Boot</li>
+        <li>Implemented RESTful APIs and full-stack components</li>
+        <li>Built responsive UIs with React</li>
+        <li>Used Git for version control and collaboration</li>
+        <li>Prepared for real-world deployment and testing</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="container" style="padding: 20px; font-size: 14px; color: #94a3b8;">
+    © 2025 Durganaveen Yerabrolu. All rights reserved.
+  </div>
+
+</body>
+</html>
